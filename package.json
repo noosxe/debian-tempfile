@@ -1,10 +1,20 @@
 {
   "name": "debian-tempfile",
   "version": "0.1.0",
+  "description": "tempfile command for your os",
+  "author": "Levon Kirakosyan <noosx.e@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "tempfile": "1.1.0"
   },
+  "keywords": [
+    "tempfile"
+  ],
   "bin": {
     "tempfile" : "./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noosxe/debian-tempfile.git"
   }
 }
